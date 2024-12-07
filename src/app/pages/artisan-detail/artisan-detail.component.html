@@ -1,0 +1,68 @@
+<div *ngIf="artisan$ | async as artisan; else loading" class="container">
+  <!-- Affiche le contenu principal du composant lorsque l'artisan est chargé -->
+  <header>
+    <h1>{{ artisan.name }}</h1> <!-- Affiche le nom de l'artisan -->
+  </header>
+
+  <!-- Affichage de l'image de l'artisan -->
+  <figure class="div-img">
+    <img [src]="artisan.image" alt="{{ artisan.name }}" class="artisan-image img-fluid">
+  </figure>
+
+  <!-- Section des informations sur l'artisan -->
+  <section class="div-infos">
+    <p><strong>Note : </strong>
+      <!-- Affichage des étoiles pleines correspondant à la note de l'artisan -->
+      <ng-container *ngFor="let star of [].constructor(artisan.rating)">
+        <i class="bi bi-star-fill" aria-hidden="true"></i>
+      </ng-container>
+
+      <!-- Affichage des étoiles vides pour compléter jusqu'à 5 étoiles -->
+      <ng-container *ngFor="let emptyStar of [].constructor(5 - artisan.rating)">
+        <i class="bi bi-star" aria-hidden="true"></i>
+      </ng-container>
+    </p>
+
+    <p><strong>Spécialité :</strong> {{ artisan.specialty }}</p> <!-- Affiche la spécialité de l'artisan -->
+    <p><strong>Localisation :</strong> {{ artisan.address.street }}, {{ artisan.address.city }}, {{ artisan.address.postalCode }}</p> <!-- Affiche l'adresse complète -->
+    <p><strong>Site web : </strong>
+      <!-- Lien fictif qui, lorsqu'on clique dessus, ne mène pas réellement à un site externe -->
+      <a href="#" class="fake-link" (click)="$event.preventDefault()">www.site-artisan-{{ artisan.website }}.com</a>
+    </p>
+  </section>
+
+  <!-- Section "À propos" de l'artisan -->
+  <section class="about">
+    <h2 class="h2 h2-contact">À propos</h2>
+    <p>{{ artisan.descriptions }}</p> <!-- Affiche la description de l'artisan -->
+  </section>
+
+  <!-- Section du formulaire de contact -->
+  <section class="contact-form">
+    <header class="div-h2-contact">
+      <h2 class="h2">Contactez {{ artisan.name }}</h2> <!-- Titre de la section de contact -->
+    </header>
+
+    <!-- Formulaire pour envoyer un message -->
+    <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)">
+      <div>
+        <label for="name">Nom</label>
+        <input id="name" name="name" ngModel required class="form-control">
+      </div>
+      <div>
+        <label for="subject">Sujet</label>
+        <input id="subject" name="subject" ngModel required class="form-control">
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" ngModel required class="form-control"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Envoyer</button>
+    </form>
+  </section>
+</div>
+
+<!-- Template de chargement affiché lorsque l'artisan n'est pas encore chargé -->
+<ng-template #loading>
+  <p>Chargement...</p>
+</ng-template>

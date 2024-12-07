@@ -1,0 +1,35 @@
+header {
+  background-color: #00497c;
+  color: #f1f8fc;
+  padding: 10px 20px;
+}
+header .navbar-brand .logo {
+  height: 50px;
+  width: auto;
+  border-radius: 20%;
+}
+header .navbar-nav .nav-link {
+  color: #f1f8fc;
+  font-size: 16px;
+  font-weight: bold;
+}
+header .navbar-nav .nav-link:hover {
+  color: #0074c7;
+}
+header .search-bar {
+  margin-left: auto;
+}
+header .search-bar input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #f1f8fc;
+  font-size: 16px;
+  color: #384050;
+  background-color: #f1f8fc;
+}
+header .search-bar input::-moz-placeholder {
+  color: #00497c;
+}
+header .search-bar input::placeholder {
+  color: #00497c;
+}/*# sourceMappingURL=header.component.css.map */

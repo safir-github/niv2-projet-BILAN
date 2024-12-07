@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+
+// Variables de couleur
+$primary-light: #f1f8fc
+$primary: #0074c7
+$primary-dark: #00497c
+$text-color: #384050
+$accent-danger: #cd2c2e // À utiliser avec parcimonie
+$accent-success: #82b864 // À utiliser avec parcimonie
+
+
+/* Déclaration des polices */
+@font-face
+  font-family: 'Graphik'
+  src: url('/assets/fonts/Graphik-Regular-Trial.woff2') format('woff2')
+  src: url('/assets/fonts/Graphik-Regular-Trial.woff') format('woff')
+  src: url('/assets/fonts/Graphik-Regular-Trial.ttf') format('truetype')
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'Graphik'
+  src: url('/assets/fonts/Graphik-Bold-Trial.woff2') format('woff2')
+  src: url('/assets/fonts/Graphik-Bold-Trial.woff') format('woff')
+  src: url('/assets/fonts/Graphik-Bold-Trial.ttf') format('truetype')
+  font-weight: bold
+  font-style: normal
+
+
+body
+  font-family: 'Graphik', sans-serif
+
+h1, h2, h3, h4, h5, h6
+  font-family: 'Graphik', sans-serif
+  font-weight: bold // Utilise la version 'Bold' de la police

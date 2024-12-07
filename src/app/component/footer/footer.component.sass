@@ -1,0 +1,39 @@
+// Variables de couleur
+$primary-light: #f1f8fc
+$primary: #0074c7
+$primary-dark: #00497c
+$text-color: #384050
+$accent-danger: #cd2c2e 
+$accent-success: #82b864 
+
+footer
+  background-color: $primary-dark 
+  color: $primary-light
+  padding: 20px
+  text-align: center
+
+  .footer-menu
+    ul
+      list-style: none
+      margin: 0
+      padding: 0
+
+      li
+        margin: 5px 15px
+
+        a
+          text-decoration: none
+          color: $primary-light
+          font-weight: bold
+
+          &:hover
+            color: $primary
+
+  .footer-contact
+    p
+      margin: 5px 0
+      color: $primary-light
+
+@media screen and (max-width: 480px)
+  .footer-menu
+    padding-bottom: 2em

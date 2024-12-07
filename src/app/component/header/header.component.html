@@ -1,0 +1,45 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <a class="navbar-brand" routerLink="/">
+        <img src="/logo1.png" alt="Logo" class="logo img-fluid" style="height: 50px;">
+      </a>
+
+      <!-- Bouton burger pour petit écran -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menu de navigation -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/batiment">Bâtiment</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/fabrication">Fabrication</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/alimentation">Alimentation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/artisan-list">Tous les Artisans</a>
+          </li>
+        </ul>
+
+        <!-- Barre de recherche -->
+        <form class="d-flex ms-auto" role="search" (submit)="onSearch()">
+          <input class="form-control me-2" type="search" name="searchTerm" placeholder="Rechercher un artisan..." aria-label="Search" [(ngModel)]="searchTerm" (input)="onSearch()">
+          <button class="btn btn-outline-light" type="submit">Rechercher</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
