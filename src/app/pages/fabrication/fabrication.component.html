@@ -1,0 +1,44 @@
+<div *ngIf="artisans$ | async as artisans; else loading" class="container">
+  <!-- Affiche le contenu principal si artisans$ a des valeurs, sinon affiche le template de chargement -->
+  <header>
+    <h1>Artisans du secteur Fabrication</h1> <!-- Titre de la section -->
+  </header>
+
+  <section class="row">
+    <!-- Utilise *ngFor pour créer un article pour chaque artisan dans la liste -->
+    <article *ngFor="let artisan of artisans" class="col-md-4 col-sm-6 mb-4">
+      <div class="artisan-card">
+        <header>
+          <h2>{{ artisan.name }}</h2> <!-- Affiche le nom de l'artisan -->
+        </header>
+        <figure class="div-img">
+          <img [src]="artisan.image" alt="{{ artisan.name }}" class="artisan-image img-fluid">
+          <!-- Affiche l'image de l'artisan, la classe img-fluid permet de la rendre responsive -->
+        </figure>
+        <p><strong>Spécialité :</strong> {{ artisan.specialty }}</p> <!-- Affiche la spécialité de l'artisan -->
+        <p><strong>Note :</strong>
+          <!-- Affiche les étoiles pleines selon la note de l'artisan -->
+          <ng-container *ngFor="let star of [].constructor(artisan.rating)">
+            <i class="bi bi-star-fill" aria-hidden="true"></i>
+          </ng-container>
+
+          <!-- Affiche les étoiles vides pour compléter jusqu'à 5 étoiles -->
+          <ng-container *ngFor="let emptyStar of [].constructor(5 - artisan.rating)">
+            <i class="bi bi-star" aria-hidden="true"></i>
+          </ng-container>
+        </p>
+        <p><strong>Localisation :</strong> {{ artisan.address.street }}, {{ artisan.address.city }}, {{ artisan.address.postalCode }}</p> 
+        <!-- Affiche l'adresse complète de l'artisan -->
+        <p>{{ artisan.description }}</p> <!-- Affiche une description de l'artisan -->
+        <div class="text-center">
+          <!-- Lien pour naviguer vers la page de détails de l'artisan -->
+          <a [routerLink]="['/artisan-detail', artisan.id]">Voir détails</a>
+        </div>
+      </div>
+    </article>
+  </section>
+</div>
+<ng-template #loading>
+  <!-- Template de chargement affiché si artisans$ est vide ou en attente de données -->
+  <p class="loading">Chargement...</p>
+</ng-template>

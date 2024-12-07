@@ -1,0 +1,24 @@
+.page-not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #f1f8fc;
+  padding-top: 8em;
+}
+.page-not-found .error-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.page-not-found h1 {
+  font-size: 120px;
+  color: #00497c;
+}
+.page-not-found p {
+  font-size: 20px;
+  color: #384050;
+}/*# sourceMappingURL=page-not-found.component.css.map */

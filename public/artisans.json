@@ -1,0 +1,437 @@
+[
+  {
+    "id": 1,
+    "name": "Jean Dupont",
+    "rating": 4,
+    "specialty": "Plomberie",
+    "address": {
+      "city": "Lyon",
+      "street": "12 Rue des Artisans",
+      "postalCode": "69001"
+    },
+    "category": "Bâtiment",
+    "description": "Expert en plomberie, dépannage et installation.",
+    "descriptions": "Jean Dupont est un expert en plomberie avec plus de 15 ans d'expérience. Il offre des services de dépannage d'urgence, d'installation de nouvelles canalisations, et de rénovation complète des systèmes de plomberie. Que vous ayez besoin de réparer une fuite ou de mettre en place une installation complexe, Jean s'assure que tout est fait avec précision et professionnalisme.",
+    "website": "jean-dupont", 
+    "image": "/img/artisan1.webp"
+  },
+  {
+    "id": 2,
+    "name": "Marc Lefevre",
+    "rating": 5,
+    "specialty": "Électricité",
+    "address": {
+      "city": "Lyon",
+      "street": "45 Avenue des Champs-Élysées",
+      "postalCode": "69002"
+    },
+    "category": "Bâtiment",
+    "description": "Électricien certifié pour tous vos besoins électriques.",
+    "descriptions": "Marc Lefevre est un électricien certifié spécialisé dans tous les aspects de l'électricité domestique et industrielle. Il propose des services d'installation, de réparation, et de mise à jour des systèmes électriques. Avec une attention particulière à la sécurité et à la conformité, Marc garantit une installation fiable et conforme aux normes en vigueur.",
+    "website": "marc-lefevre",
+    "image": "/img/artisan2.webp"
+  },
+  {
+    "id": 3,
+    "name": "Luc Martin",
+    "rating": 3,
+    "specialty": "Peinture",
+    "address": {
+      "city": "Lyon",
+      "street": "78 Boulevard des Belges",
+      "postalCode": "69003"
+    },
+    "category": "Bâtiment",
+    "description": "Peintre professionnel pour intérieur et extérieur.",
+    "descriptions": "Luc Martin est un peintre professionnel avec une expertise dans les projets de peinture intérieure et extérieure. Il offre des services de préparation des surfaces, d'application de peinture de haute qualité, et de finitions soignées. Luc travaille avec divers types de peintures et de finitions pour répondre aux besoins spécifiques de chaque client.",
+    "website": "luc-martin",
+    "image": "/img/artisan3.webp"
+  },
+  {
+    "id": 4,
+    "name": "Pierre Dubois",
+    "rating": 4,
+    "specialty": "Réparation de toit",
+    "address": {
+      "city": "Lyon",
+      "street": "56 Rue de la République",
+      "postalCode": "69004"
+    },
+    "category": "Bâtiment",
+    "description": "Spécialiste en réparation et entretien de toitures.",
+    "descriptions": "Pierre Dubois est un spécialiste en réparation et entretien de toitures. Il s'occupe de la réparation des fuites, du remplacement de tuiles, et de la vérification de l'intégrité de la toiture. Avec une approche méticuleuse, Pierre assure une protection durable contre les intempéries.",
+    "website": "pierre-dubois",
+    "image": "/img/artisan4.webp"
+  },
+  {
+    "id": 5,
+    "name": "Jean-Louis Dupuis",
+    "rating": 5,
+    "specialty": "Maçonnerie",
+    "address": {
+      "city": "Lyon",
+      "street": "23 Place Bellecour",
+      "postalCode": "69005"
+    },
+    "category": "Bâtiment",
+    "description": "Maçon qualifié pour tous vos projets de construction.",
+    "descriptions": "Jean-Louis Dupuis est un maçon qualifié avec une vaste expérience dans la construction et la rénovation de structures en maçonnerie. Il prend en charge des projets tels que la construction de murs, la création d'ouvertures, et la rénovation de façades. Sa maîtrise des techniques de maçonnerie assure des résultats solides et durables.",
+    "website": "jean-louis-dupuis",
+    "image": "/img/artisan5.webp"
+  },
+  {
+    "id": 6,
+    "name": "André Laurent",
+    "rating": 4,
+    "specialty": "Chauffage",
+    "address": {
+      "city": "Lyon",
+      "street": "34 Rue de la Barre",
+      "postalCode": "69006"
+    },
+    "category": "Bâtiment",
+    "description": "Expert en installation et maintenance de systèmes de chauffage.",
+    "descriptions": "André Laurent est un expert en installation et maintenance de systèmes de chauffage. Il propose des services pour la mise en place de chaudières, de radiateurs, et de systèmes de chauffage au sol. André veille à ce que vos systèmes de chauffage fonctionnent de manière optimale et efficace tout au long de l'année.",
+    "website": "andre-laurent",
+    "image": "/img/artisan6.webp"
+  },
+  {
+    "id": 7,
+    "name": "Alexandre Girard",
+    "rating": 4,
+    "specialty": "Réparation d'appareils électroniques",
+    "address": {
+      "city": "Lyon",
+      "street": "89 Rue du Président Édouard Herriot",
+      "postalCode": "69007"
+    },
+    "category": "Services",
+    "description": "Réparateur d'appareils électroniques avec expertise en dépannage.",
+    "descriptions": "Alexandre Girard est un technicien spécialisé dans la réparation d'appareils électroniques. Il intervient sur divers types d'équipements, y compris les téléviseurs, les ordinateurs, et les appareils audio. Avec une expertise technique approfondie, Alexandre résout les pannes rapidement pour que vos appareils fonctionnent à nouveau comme neuf.",
+    "website": "alexandre-girard",
+    "image": "/img/artisan7.webp"
+  },
+  {
+    "id": 8,
+    "name": "Julien Moreau",
+    "rating": 5,
+    "specialty": "Réparation de vélo",
+    "address": {
+      "city": "Lyon",
+      "street": "15 Rue du Commandant Charcot",
+      "postalCode": "69008"
+    },
+    "category": "Services",
+    "description": "Réparateur de vélos pour tous types de réparations et d'entretien.",
+    "descriptions": "Julien Moreau est un réparateur de vélos expérimenté, offrant des services de maintenance et de réparation pour tous types de vélos. Il s'occupe des réglages, des réparations de crevaisons, et des remplacements de pièces usées. Julien assure que votre vélo est en parfait état pour des trajets en toute sécurité.", 
+    "website": "julien-moreau",
+    "image": "/img/artisan8.webp"
+  },
+  {
+    "id": 9,
+    "name": "Thomas Roche",
+    "rating": 3,
+    "specialty": "Entretien général",
+    "address": {
+      "city": "Lyon",
+      "street": "67 Rue de la Liberté",
+      "postalCode": "69009"
+    },
+    "category": "Services",
+    "description": "Services d'entretien général pour tous vos besoins domestiques.",
+    "descriptions": "Thomas Roche offre des services d'entretien général pour les besoins domestiques variés. Il se charge de l'entretien des espaces intérieurs et extérieurs, incluant des tâches telles que le nettoyage, la réparation légère, et l'organisation. Thomas assure une approche complète pour maintenir votre environnement en bon état.",
+    "website": "thomas-roche",
+    "image": "/img/artisan9.webp"
+  },
+  {
+    "id": 10,
+    "name": "Charles Simon",
+    "rating": 4,
+    "specialty": "Réparation de meubles",
+    "address": {
+      "city": "Lyon",
+      "street": "32 Rue du Plat",
+      "postalCode": "69010"
+    },
+    "category": "Services",
+    "description": "Réparateur de meubles avec un service rapide et efficace.",
+    "descriptions": "Charles Simon est un réparateur de meubles spécialisé dans la restauration et la réparation de meubles endommagés. Il travaille sur les réparations de fissures, de joints, et de finitions. Avec un souci du détail, Charles rend vos meubles fonctionnels et esthétiques à nouveau.",
+    "website": "charles-simon",
+    "image": "/img/artisan10.webp"
+  },
+  {
+    "id": 11,
+    "name": "Louis Martin",
+    "rating": 5,
+    "specialty": "Dépannage informatique",
+    "address": {
+      "city": "Lyon",
+      "street": "21 Rue des Frères Lumière",
+      "postalCode": "69011"
+    },
+    "category": "Services",
+    "description": "Technicien spécialisé dans le dépannage informatique.",
+    "descriptions": "Louis Martin est un technicien spécialisé dans le dépannage informatique. Il offre des services de réparation pour les ordinateurs, la récupération de données, et la résolution de problèmes logiciels et matériels. Louis utilise des outils avancés pour assurer une résolution efficace des problèmes informatiques.",
+    "website": "louis-martin",
+    "image": "/img/artisan11.webp"
+  },
+  {
+    "id": 12,
+    "name": "Jérôme Dubois",
+    "rating": 3,
+    "specialty": "Réparation d'équipements sportifs",
+    "address": {
+      "city": "Lyon",
+      "street": "50 Rue de la Charité",
+      "postalCode": "69012"
+    },
+    "category": "Services",
+    "description": "Réparateur d'équipements sportifs avec expérience.",
+    "descriptions": "Jérôme Dubois est un réparateur d'équipements sportifs avec une expertise dans la réparation et l'entretien de divers équipements, tels que les vélos, les raquettes de tennis, et les équipements de fitness. Il fournit un service de qualité pour que vos équipements restent en parfait état de fonctionnement.",
+    "website": "jerome-dubois",
+    "image": "/img/artisan12.webp"
+  },
+  {
+    "id": 13,
+    "name": "Olivier Lambert",
+    "rating": 4,
+    "specialty": "Ébénisterie",
+    "address": {
+      "city": "Lyon",
+      "street": "78 Rue de la République",
+      "postalCode": "69013"
+    },
+    "category": "Fabrication",
+    "description": "Ébéniste spécialisé dans la restauration de meubles anciens.",
+    "descriptions": "Olivier Lambert est un ébéniste spécialisé dans la restauration de meubles anciens et la fabrication de pièces personnalisées. Il travaille le bois avec une grande précision pour créer des meubles sur mesure et restaurer les pièces historiques. Olivier allie tradition et artisanat pour offrir des créations uniques.",
+    "website": "olivier-lambert",
+    "image": "/img/artisan13.webp"
+  },
+  {
+    "id": 14,
+    "name": "François Morel",
+    "rating": 5,
+    "specialty": "Sculpture sur bois",
+    "address": {
+      "city": "Lyon",
+      "street": "12 Rue des Quatre Chapeaux",
+      "postalCode": "69014"
+    },
+    "category": "Fabrication",
+    "description": "Artisan sculpteur sur bois, créant des œuvres uniques.",
+    "descriptions": "François Morel est un sculpteur sur bois créant des œuvres uniques et personnalisées. Il travaille sur des projets allant des sculptures décoratives aux pièces fonctionnelles, utilisant des techniques traditionnelles et contemporaines. François apporte une touche artistique à chaque pièce qu'il crée.",
+    "website": "francois-morel",
+    "image": "/img/artisan14.webp"
+  },
+  {
+    "id": 15,
+    "name": "Michel Perrin",
+    "rating": 4,
+    "specialty": "Serrurerie",
+    "address": {
+      "city": "Lyon",
+      "street": "89 Rue de l'Université",
+      "postalCode": "69015"
+    },
+    "category": "Fabrication",
+    "description": "Spécialiste en serrurerie et fabrication de clés.",
+    "descriptions": "Michel Perrin est un serrurier spécialisé dans la fabrication de clés et la sécurisation des ouvertures. Il propose des services de réparation de serrures, d'installation de nouveaux systèmes de verrouillage, et de renforcement de la sécurité des bâtiments. Michel assure une sécurité optimale pour vos propriétés.",
+    "website": "michel-perrin",
+    "image": "/img/artisan15.webp"
+  },
+  {
+    "id": 16,
+    "name": "Daniel Bernard",
+    "rating": 4,
+    "specialty": "Fabrication d'outils",
+    "address": {
+      "city": "Lyon",
+      "street": "101 Rue des Acacias",
+      "postalCode": "69016"
+    },
+    "category": "Fabrication",
+    "description": "Fabricant d'outils personnalisés pour divers besoins.",
+    "descriptions": "Daniel Bernard est un fabricant d'outils personnalisés pour divers besoins professionnels et domestiques. Il conçoit et fabrique des outils sur mesure, adaptés aux spécifications des clients. Daniel utilise des matériaux de haute qualité pour garantir la durabilité et l'efficacité des outils.",
+    "website": "daniel-bernard",
+    "image": "/img/artisan16.webp"
+  },
+  {
+    "id": 17,
+    "name": "Jean-Pierre Fouquet",
+    "rating": 5,
+    "specialty": "Construction métallique",
+    "address": {
+      "city": "Lyon",
+      "street": "67 Rue des Martyrs",
+      "postalCode": "69017"
+    },
+    "category": "Fabrication",
+    "description": "Expert en construction métallique pour projets industriels.",
+    "descriptions": "Jean-Pierre Fouquet est un expert en construction métallique, réalisant des projets industriels de grande envergure. Il travaille sur des structures en métal, telles que des charpentes, des ponts, et des supports industriels. Jean-Pierre assure des constructions robustes et conformes aux normes de sécurité.",
+    "website": "jean-pierre-fouquet",
+    "image": "/img/artisan17.webp"
+  },
+  {
+    "id": 18,
+    "name": "Bernard Lopez",
+    "rating": 3,
+    "specialty": "Réparation d'outils",
+    "address": {
+      "city": "Lyon",
+      "street": "22 Rue du Général de Gaulle",
+      "postalCode": "69018"
+    },
+    "category": "Fabrication",
+    "description": "Réparation et entretien d'outils professionnels.",
+    "descriptions": "Bernard Lopez est un réparateur d'outils professionnels avec une expertise dans l'entretien et la réparation de divers outils utilisés dans les ateliers et les chantiers. Il fournit des services de révision, de réglage, et de réparation pour prolonger la durée de vie des outils.",
+    "website": "bernard-lopez",
+    "image": "/img/artisan18.webp"
+  },
+  {
+    "id": 19,
+    "name": "Marc Faure",
+    "rating": 4,
+    "specialty": "Boucherie",
+    "address": {
+      "city": "Lyon",
+      "street": "85 Rue de la Boucherie",
+      "postalCode": "69019"
+    },
+    "category": "Alimentation",
+    "description": "Boucher avec des produits frais et de qualité.",
+    "descriptions": "Marc Faure est un boucher offrant des produits frais de haute qualité, comprenant des viandes sélectionnées, des charcuteries artisanales, et des spécialités locales. Marc met l'accent sur la qualité et la fraîcheur des produits pour satisfaire les besoins des clients.",
+    "website": "marc-faure",
+    "image": "/img/artisan19.webp"
+  },
+  {
+    "id": 20,
+    "name": "Julien Richard",
+    "rating": 5,
+    "specialty": "Épicerie",
+    "address": {
+      "city": "Lyon",
+      "street": "33 Rue de l'Épicerie",
+      "postalCode": "69020"
+    },
+    "category": "Alimentation",
+    "description": "Épicier proposant des produits locaux et bio.",
+    "descriptions": "Julien Richard est un épicier proposant une sélection de produits locaux et biologiques. Il offre des produits alimentaires de qualité, allant des fruits et légumes aux produits d'épicerie fine. Julien veille à la provenance et à la qualité des produits pour offrir le meilleur à ses clients.",
+    "website": "julien-richard",
+    "image": "/img/artisan20.webp"
+  },
+  {
+    "id": 21,
+    "name": "Gérard Martin",
+    "rating": 3,
+    "specialty": "Traiteur",
+    "address": {
+      "city": "Lyon",
+      "street": "44 Rue du Traiteur",
+      "postalCode": "69021"
+    },
+    "category": "Alimentation",
+    "description": "Traiteur pour événements et repas spéciaux.",
+    "descriptions": "Gérard Martin est un traiteur spécialisé dans l'organisation de repas pour événements, mariages, et repas d'entreprise. Il propose des menus personnalisés, des plats raffinés, et un service de qualité pour garantir la réussite de vos événements.",
+    "website": "gerard-martin",
+    "image": "/img/artisan21.webp"
+  },
+  {
+    "id": 22,
+    "name": "Christian Dubois",
+    "rating": 4,
+    "specialty": "Poissonnerie",
+    "address": {
+      "city": "Lyon",
+      "street": "56 Rue des Poissons",
+      "postalCode": "69022"
+    },
+    "category": "Alimentation",
+    "description": "Poissonnier avec une large gamme de produits frais.",
+    "descriptions": "Christian Dubois est un poissonnier offrant une large gamme de produits de la mer, comprenant des poissons frais, des fruits de mer, et des produits préparés. Christian sélectionne ses produits avec soin pour assurer fraîcheur et qualité.",
+    "website": "christian-dubois",
+    "image": "/img/artisan22.webp"
+  },
+  {
+    "id": 23,
+    "name": "Éric Durand",
+    "rating": 5,
+    "specialty": "Boulangerie",
+    "address": {
+      "city": "Lyon",
+      "street": "77 Rue de la Boulangerie",
+      "postalCode": "69023"
+    },
+    "category": "Alimentation",
+    "description": "Boulanger réputé pour ses pains et pâtisseries artisanales.",
+    "descriptions": "Éric Durand est un boulanger réputé pour ses pains artisanaux et ses pâtisseries. Il propose une gamme variée de produits de boulangerie, incluant des pains faits maison, des viennoiseries, et des pâtisseries fines. Éric utilise des techniques traditionnelles pour garantir la qualité et le goût de ses produits.",
+    "website": "eric-durant",
+    "image": "/img/artisan23.webp"
+  },
+  {
+    "id": 24,
+    "name": "Paul Lefèvre",
+    "rating": 3,
+    "specialty": "Chocolaterie",
+    "address": {
+      "city": "Lyon",
+      "street": "12 Rue des Chocolatiers",
+      "postalCode": "69024"
+    },
+    "category": "Alimentation",
+    "description": "Chocolatier offrant des créations artisanales.",
+    "descriptions": "Paul Lefèvre est un chocolatier offrant des créations artisanales uniques. Il propose une sélection de chocolats fins, de truffes, et de bonbons faits main. Paul utilise des ingrédients de qualité pour créer des produits délicieux et élégants.",
+    "website": "paul-lefevre",
+    "image": "/img/artisan24.webp"
+  }, 
+
+  {
+    "id": 25,
+    "name": "Marc Lefevre",
+    "rating": 5,
+    "specialty": "Électricité",
+    "address": {
+      "city": "Lyon",
+      "street": "45 Avenue des Champs-Élysées",
+      "postalCode": "69002"
+    },
+    "category": "best",
+    "description": "Électricien certifié pour tous vos besoins électriques.",
+    "descriptions": "Marc Lefevre est un électricien certifié spécialisé dans tous les aspects de l'électricité domestique et industrielle. Il propose des services d'installation, de réparation, et de mise à jour des systèmes électriques. Avec une attention particulière à la sécurité et à la conformité, Marc garantit une installation fiable et conforme aux normes en vigueur.",
+    "website": "marc-lefevre",
+    "image": "/img/artisan2.webp"
+  }, 
+
+  {
+    "id": 26,
+    "name": "Julien Moreau",
+    "rating": 5,
+    "specialty": "Réparation de vélo",
+    "address": {
+      "city": "Lyon",
+      "street": "15 Rue du Commandant Charcot",
+      "postalCode": "69008"
+    },
+    "category": "best",
+    "description": "Réparateur de vélos pour tous types de réparations et d'entretien.",
+    "descriptions": "Julien Moreau est un réparateur de vélos expérimenté, offrant des services de maintenance et de réparation pour tous types de vélos. Il s'occupe des réglages, des réparations de crevaisons, et des remplacements de pièces usées. Julien assure que votre vélo est en parfait état pour des trajets en toute sécurité.", 
+    "website": "julien-moreau",
+    "image": "/img/artisan8.webp"
+  }, 
+
+  {
+    "id": 27,
+    "name": "François Morel",
+    "rating": 5,
+    "specialty": "Sculpture sur bois",
+    "address": {
+      "city": "Lyon",
+      "street": "12 Rue des Quatre Chapeaux",
+      "postalCode": "69014"
+    },
+    "category": "best",
+    "description": "Artisan sculpteur sur bois, créant des œuvres uniques.",
+    "descriptions": "François Morel est un sculpteur sur bois créant des œuvres uniques et personnalisées. Il travaille sur des projets allant des sculptures décoratives aux pièces fonctionnelles, utilisant des techniques traditionnelles et contemporaines. François apporte une touche artistique à chaque pièce qu'il crée.",
+    "website": "francois-morel",
+    "image": "/img/artisan14.webp"
+  }
+]
