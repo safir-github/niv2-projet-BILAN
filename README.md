@@ -4,19 +4,6 @@ Ce projet est une plateforme Angular dédiée aux artisans de la région Auvergn
 
 ---
 
-## Table des matières
-
-1. [À propos du projet](#à-propos-du-projet)  
-2. [Fonctionnalités principales](#fonctionnalités-principales)  
-3. [Installation](#installation)  
-4. [Lancer l'application](#lancer-lapplication)  
-5. [Structure des fichiers](#structure-des-fichiers)  
-6. [Technologies utilisées](#technologies-utilisées)  
-7. [Contributions](#contributions)  
-8. [Commandes Angular Complètes](#commandes-angular-complètes)
-
----
-
 ## À propos du projet
 
 Ce projet vise à fournir une interface moderne, accessible et responsive permettant de :

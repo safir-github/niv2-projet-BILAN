@@ -5,7 +5,8 @@
     <h1>Artisans du secteur Bâtiment</h1>
   </header>
 
-  <!-- Conteneur pour la liste des artisans -->
+  <main>
+    <!-- Conteneur pour la liste des artisans -->
   <section class="row">
     <!-- Itère sur chaque artisan pour créer un article pour chacun -->
     <article *ngFor="let artisan of artisans" class="col-md-4 col-sm-6 mb-4">
@@ -42,6 +43,7 @@
       </div>
     </article>
   </section>
+  </main>
 </div>
 
 <!-- Template de chargement affiché pendant le chargement des artisans -->

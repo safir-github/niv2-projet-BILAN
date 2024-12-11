@@ -4,7 +4,8 @@
     <h1>Artisans du secteur Alimentation</h1>
   </header>
 
-  <!-- Utilisation de <section> pour regrouper les cartes des artisans -->
+  <main>
+    <!-- Utilisation de <section> pour regrouper les cartes des artisans -->
   <section class="row artisan-list">
     <!-- ng-container pour gérer chaque artisan individuellement -->
     <ng-container *ngFor="let artisan of artisans">
@@ -39,6 +40,7 @@
       </article>
     </ng-container>
   </section>
+  </main>
 </div>
 
 <!-- Template de chargement -->
