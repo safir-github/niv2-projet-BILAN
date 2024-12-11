@@ -8,11 +8,10 @@ import { FormsModule } from '@angular/forms';
 import { SearchService } from '../../services/search.service';  // Assurez-vous que le chemin est correct
 
 @Component({
-  selector: 'app-artisan-list',
-  standalone: true,
-  imports: [CommonModule, RouterModule, FormsModule], // Importation des modules nécessaires pour le composant
-  templateUrl: './artisan-list.component.html',
-  styleUrls: ['./artisan-list.component.sass']
+    selector: 'app-artisan-list',
+    imports: [CommonModule, RouterModule, FormsModule], // Importation des modules nécessaires pour le composant
+    templateUrl: './artisan-list.component.html',
+    styleUrls: ['./artisan-list.component.sass']
 })
 export class ArtisanListComponent implements OnInit {
 

@@ -5,11 +5,10 @@ import { FormsModule } from '@angular/forms';
 import { SearchService } from '../../services/search.service';
 
 @Component({
-  selector: 'app-header',
-  standalone: true,
-  imports: [RouterModule, FormsModule],  // Ajoute RouterModule ici
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.sass']
+    selector: 'app-header',
+    imports: [RouterModule, FormsModule], // Ajoute RouterModule ici
+    templateUrl: './header.component.html',
+    styleUrls: ['./header.component.sass']
 })
 
 export class HeaderComponent {

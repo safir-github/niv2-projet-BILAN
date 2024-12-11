@@ -10,11 +10,10 @@ import { ContactService } from '../../services/contact.service'; // Importation 
 
 // Décorateur du composant pour indiquer qu'il s'agit d'un composant Angular
 @Component({
-  selector: 'app-artisan-detail',
-  standalone: true, // Permet au composant d'être autonome sans module
-  imports: [CommonModule, FormsModule], // Importation des modules nécessaires
-  templateUrl: './artisan-detail.component.html', // Chemin vers le template HTML
-  styleUrls: ['./artisan-detail.component.sass'] // Chemin vers le fichier de style SASS
+    selector: 'app-artisan-detail', // Permet au composant d'être autonome sans module
+    imports: [CommonModule, FormsModule], // Importation des modules nécessaires
+    templateUrl: './artisan-detail.component.html', // Chemin vers le template HTML
+    styleUrls: ['./artisan-detail.component.sass'] // Chemin vers le fichier de style SASS
 })
 export class ArtisanDetailComponent implements OnInit {
 

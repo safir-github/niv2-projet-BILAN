@@ -5,11 +5,10 @@ import { RouterModule } from '@angular/router';
 import { ArtisanService, Artisan } from '../../services/artisan.service';
 
 @Component({
-  selector: 'app-fabrication',
-  standalone: true, // Indique que ce composant est autonome et peut être utilisé indépendamment
-  imports: [CommonModule, RouterModule], // Importation des modules nécessaires
-  templateUrl: './fabrication.component.html', // Chemin vers le template HTML
-  styleUrls: ['./fabrication.component.sass'] // Chemin vers le fichier de styles SCSS
+    selector: 'app-fabrication', // Indique que ce composant est autonome et peut être utilisé indépendamment
+    imports: [CommonModule, RouterModule], // Importation des modules nécessaires
+    templateUrl: './fabrication.component.html', // Chemin vers le template HTML
+    styleUrls: ['./fabrication.component.sass'] // Chemin vers le fichier de styles SCSS
 })
 export class FabricationComponent implements OnInit {
 

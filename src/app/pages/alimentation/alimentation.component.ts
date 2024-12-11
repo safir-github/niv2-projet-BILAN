@@ -7,11 +7,10 @@ import { ArtisanService, Artisan } from '../../services/artisan.service'; // Imp
 
 // Déclaration du composant Angular
 @Component({
-  selector: 'app-alimentation',
-  standalone: true, // Utilisé pour déclarer un composant autonome
-  imports: [CommonModule, RouterModule], // Importation des modules nécessaires pour ce composant
-  templateUrl: './alimentation.component.html', // Lien vers le fichier de template
-  styleUrl: './alimentation.component.sass' // Lien vers le fichier de style
+    selector: 'app-alimentation', // Utilisé pour déclarer un composant autonome
+    imports: [CommonModule, RouterModule], // Importation des modules nécessaires pour ce composant
+    templateUrl: './alimentation.component.html', // Lien vers le fichier de template
+    styleUrl: './alimentation.component.sass' // Lien vers le fichier de style
 })
 export class AlimentationComponent implements OnInit {
 
