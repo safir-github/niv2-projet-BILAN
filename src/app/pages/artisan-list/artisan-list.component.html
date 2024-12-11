@@ -4,7 +4,8 @@
     <h1>Découvrez tous nos Artisans</h1>
   </header>
 
-  <!-- Section de la liste des artisans -->
+  <main>
+    <!-- Section de la liste des artisans -->
   <section class="row">
     <article *ngFor="let artisan of artisans" class="col-md-4 col-sm-6 mb-4">
       <!-- Carte de l'artisan -->
@@ -36,6 +37,7 @@
       </div>
     </article>
   </section>
+  </main>
 </div>
 
 <!-- Template de chargement affiché lorsque les données des artisans ne sont pas encore chargées -->

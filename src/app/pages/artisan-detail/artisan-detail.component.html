@@ -4,7 +4,8 @@
     <h1>{{ artisan.name }}</h1> <!-- Affiche le nom de l'artisan -->
   </header>
 
-  <!-- Affichage de l'image de l'artisan -->
+  <main>
+    <!-- Affichage de l'image de l'artisan -->
   <figure class="div-img">
     <img [src]="artisan.image" alt="{{ artisan.name }}" class="artisan-image img-fluid">
   </figure>
@@ -60,6 +61,7 @@
       <button type="submit" class="btn btn-primary">Envoyer</button>
     </form>
   </section>
+  </main>
 </div>
 
 <!-- Template de chargement affiché lorsque l'artisan n'est pas encore chargé -->
