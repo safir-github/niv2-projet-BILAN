@@ -5,11 +5,11 @@ import { RouterModule } from '@angular/router';
 import { ArtisanService, Artisan } from '../../services/artisan.service';
 
 @Component({
-  selector: 'app-home', // Sélecteur utilisé pour intégrer ce composant dans les templates
-  standalone: true, // Indique que le composant est autonome et n'a pas besoin d'un module Angular dédié
-  imports: [CommonModule, RouterModule], // Modules importés pour le fonctionnement du composant
-  templateUrl: './home.component.html', // Chemin vers le template HTML du composant
-  styleUrl: './home.component.sass' // Chemin vers le fichier de style du composant (Sass)
+    selector: 'app-home',
+    standalone: true, // Indique que le composant est autonome et n'a pas besoin d'un module Angular dédié
+    imports: [CommonModule, RouterModule], // Modules importés pour le fonctionnement du composant
+    templateUrl: './home.component.html', // Chemin vers le template HTML du composant
+    styleUrl: './home.component.sass' // Chemin vers le fichier de style du composant (Sass)
 })
 export class HomeComponent implements OnInit {
   artisans$: Observable<Artisan[]>; // Déclaration de artisans$ comme Observable pour contenir la liste des artisans
