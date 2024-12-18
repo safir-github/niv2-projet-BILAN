@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
-import { map } from 'rxjs/operators';
+import { Observable, throwError } from 'rxjs';
+import { map, catchError } from 'rxjs/operators';
 
 // Interface pour représenter une adresse
 export interface Address {
@@ -33,9 +33,14 @@ export class ArtisanService {
 
   constructor(private http: HttpClient) {}
 
-  // Méthode pour obtenir la liste de tous les artisans
+  // Méthode pour obtenir la liste de tous les artisans avec gestion des erreurs
   getArtisans(): Observable<Artisan[]> {
-    return this.http.get<Artisan[]>(this.artisansUrl);
+    return this.http.get<Artisan[]>(this.artisansUrl).pipe(
+      catchError((error) => {
+        console.error('Erreur lors du chargement des artisans:', error);
+        return throwError(() => new Error('Erreur de chargement des artisans'));
+      })
+    );
   }
 
   // Méthode pour obtenir un artisan par ID
@@ -48,7 +53,7 @@ export class ArtisanService {
   // Méthode pour obtenir les artisans par catégorie
   getArtisansByCategory(category: string): Observable<Artisan[]> {
     return this.getArtisans().pipe(
-      map((artisans) => artisans.filter(artisan => artisan.category === category))
+      map((artisans) => artisans.filter((artisan) => artisan.category === category))
     );
   }
 }
