@@ -25,7 +25,7 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "sass",
-            "baseHref": "/niv2-projet-bilan/",
+            "baseHref": "/",
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -37,7 +37,7 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "/niv2-projet-bilan/",
+              "baseHref": "/",
               "budgets": [
                 {
                   "type": "initial",
