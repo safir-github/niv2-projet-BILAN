@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist",
+            "outputPath": "dist/niv2-projet-bilan/browser",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -25,7 +25,7 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "sass",
-            "baseHref": "/",
+            "baseHref": "/niv2-projet-bilan/",
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -37,7 +37,7 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "/",
+              "baseHref": "/niv2-projet-bilan/",
               "budgets": [
                 {
                   "type": "initial",
