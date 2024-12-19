@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "framework": "angular",
+  "buildCommand": "ng build",
+  "outputDirectory": "dist/niv2-projet-bilan/browser",
+  "rewrites": [
+    { "source": "/assets/(.*)", "destination": "/assets/$1" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
