@@ -25,7 +25,8 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "sass",
-            "baseHref": "/",
+            "baseHref": "",
+            "deployUrl": "",
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -37,7 +38,7 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "/",
+              "baseHref": "",
               "budgets": [
                 {
                   "type": "initial",
