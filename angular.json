@@ -34,7 +34,8 @@
             "styles": [
               "src/styles.sass"
             ],
-            "scripts": []
+            "scripts": [],
+            "baseHref": "/niv2-projet-BILAN/"
           },
           "configurations": {
             "production": {
