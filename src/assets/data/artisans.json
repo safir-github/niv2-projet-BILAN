@@ -6,7 +6,8 @@
       "specialty": "Plomberie",
       "location": "Lyon",
       "category": "Bâtiment",
-      "description": "Expert en plomberie, dépannage et installation."
+      "description": "Expert en plomberie, dépannage et installation.",
+      "image": "assets/img/artisan1.webp"
     },
     {
       "id": 2,

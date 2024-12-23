@@ -1,5 +1,8 @@
 <!-- page-home.component.html -->
 <div class="container page-home-container">
+  <header>
+    <h1 class="page-title">Bienvenue sur Trouve ton artisan</h1>
+  </header>
   <main>
     <!-- Section pour expliquer comment trouver un artisan -->
   <section aria-labelledby="finding-artisan">
@@ -10,22 +13,22 @@
       <!-- Étape 1 -->
       <div class="col-md-6 step">
         <h3>Étape 1 : Choisir la catégorie d’artisanat</h3>
-        <p>Utilisez le menu de navigation pour sélectionner la catégorie qui correspond à vos besoins. Vous trouverez une liste d'artisans spécialisés dans cette catégorie.</p>
+        <p class="text-home">Utilisez le menu de navigation pour sélectionner la catégorie qui correspond à vos besoins. Vous trouverez une liste d'artisans spécialisés dans cette catégorie.</p>
       </div>
       <!-- Étape 2 -->
       <div class="col-md-6 step">
         <h3>Étape 2 : Choisir un artisan</h3>
-        <p>Parcourez les artisans disponibles dans la catégorie choisie et sélectionnez celui qui vous intéresse pour voir ses détails.</p>
+        <p class="text-home">Parcourez les artisans disponibles dans la catégorie choisie et sélectionnez celui qui vous intéresse pour voir ses détails.</p>
       </div>
       <!-- Étape 3 -->
       <div class="col-md-6 step">
         <h3>Étape 3 : Le contacter via le formulaire de contact</h3>
-        <p>Utilisez le formulaire de contact disponible sur la page de l’artisan pour envoyer votre message. Vous pouvez poser des questions ou demander un devis.</p>
+        <p class="text-home">Utilisez le formulaire de contact disponible sur la page de l’artisan pour envoyer votre message. Vous pouvez poser des questions ou demander un devis.</p>
       </div>
       <!-- Étape 4 -->
       <div class="col-md-6 step">
         <h3>Étape 4 : Une réponse sera apportée sous 48h</h3>
-        <p>Un artisan vous répondra sous 48 heures pour vous fournir les informations demandées ou pour fixer un rendez-vous.</p>
+        <p class="text-home">Un artisan vous répondra sous 48 heures pour vous fournir les informations demandées ou pour fixer un rendez-vous.</p>
       </div>
     </div>
   </section>
@@ -42,7 +45,7 @@
         <article class="col-md-4 artisan" *ngFor="let artisan of artisans">
           <h3>{{ artisan.name }}</h3>
           <figure class="div-img">
-            <img [src]="artisan.image" alt="{{ artisan.name }}" class="artisan-image img-fluid">
+            <img [src]="artisan.image" alt="Image de {{ artisan.name }}, artisan spécialisé en {{ artisan.specialty }}" class="artisan-image img-fluid">
           </figure>
           <div class="rating">
             <!-- Étoiles pleines -->

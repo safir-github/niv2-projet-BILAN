@@ -24,4 +24,12 @@ export class HeaderComponent {
     // Redirige l'utilisateur vers la page "artisan-list"
     this.router.navigate(['/artisan-list']);
   }
+
+  // Ajout d'une méthode pour fermer le menu burger au clic d'un élément du menu
+  closeMenu(): void {
+    const navbarCollapse = document.getElementById('navbarNav');
+    if (navbarCollapse) {
+      navbarCollapse.classList.remove('show'); // Retire la classe 'show' pour fermer le menu
+    }
+  }
 }

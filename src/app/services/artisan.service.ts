@@ -29,7 +29,7 @@ export interface Artisan {
   providedIn: 'root',
 })
 export class ArtisanService {
-  private artisansUrl = '/artisans.json'; // URL du fichier JSON contenant les artisans
+  private artisansUrl = 'assets/artisans.json'; // URL du fichier JSON contenant les artisans
 
   constructor(private http: HttpClient) {}
 
