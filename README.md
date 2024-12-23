@@ -16,7 +16,7 @@ Ce projet vise à fournir une interface moderne, accessible et responsive permet
 
 ## Accéder au site
 
-Vous pouvez consulter le site en ligne ici : [https://example.com](https://example.com)
+Vous pouvez consulter le site en ligne ici : [https://safir-github.github.io/niv2-projet-BILAN/batiment](https://example.com)
 
 ---
 
