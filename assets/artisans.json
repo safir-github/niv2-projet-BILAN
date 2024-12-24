@@ -77,7 +77,7 @@
     "description": "Maçon qualifié pour tous vos projets de construction.",
     "descriptions": "Jean-Louis Dupuis est un maçon qualifié avec une vaste expérience dans la construction et la rénovation de structures en maçonnerie. Il prend en charge des projets tels que la construction de murs, la création d'ouvertures, et la rénovation de façades. Sa maîtrise des techniques de maçonnerie assure des résultats solides et durables.",
     "website": "jean-louis-dupuis",
-    "image": "/niv2-projet-BILAN/img/artisan5.webp"
+    "image": "/niv2-projet-BILAN/img/artisan5.jpg"
   },
   {
     "id": 6,
@@ -93,7 +93,7 @@
     "description": "Expert en installation et maintenance de systèmes de chauffage.",
     "descriptions": "André Laurent est un expert en installation et maintenance de systèmes de chauffage. Il propose des services pour la mise en place de chaudières, de radiateurs, et de systèmes de chauffage au sol. André veille à ce que vos systèmes de chauffage fonctionnent de manière optimale et efficace tout au long de l'année.",
     "website": "andre-laurent",
-    "image": "/niv2-projet-BILAN/img/artisan6.webp"
+    "image": "/niv2-projet-BILAN/img/artisan6.jpg"
   },
   {
     "id": 7,
@@ -109,7 +109,7 @@
     "description": "Réparateur d'appareils électroniques avec expertise en dépannage.",
     "descriptions": "Alexandre Girard est un technicien spécialisé dans la réparation d'appareils électroniques. Il intervient sur divers types d'équipements, y compris les téléviseurs, les ordinateurs, et les appareils audio. Avec une expertise technique approfondie, Alexandre résout les pannes rapidement pour que vos appareils fonctionnent à nouveau comme neuf.",
     "website": "alexandre-girard",
-    "image": "/niv2-projet-BILAN/img/artisan7.webp"
+    "image": "/niv2-projet-BILAN/img/artisan7.jpg"
   },
   {
     "id": 8,
@@ -141,7 +141,7 @@
     "description": "Services d'entretien général pour tous vos besoins domestiques.",
     "descriptions": "Thomas Roche offre des services d'entretien général pour les besoins domestiques variés. Il se charge de l'entretien des espaces intérieurs et extérieurs, incluant des tâches telles que le nettoyage, la réparation légère, et l'organisation. Thomas assure une approche complète pour maintenir votre environnement en bon état.",
     "website": "thomas-roche",
-    "image": "/niv2-projet-BILAN/img/artisan9.webp"
+    "image": "/niv2-projet-BILAN/img/artisan9.jpg"
   },
   {
     "id": 10,
@@ -189,7 +189,7 @@
     "description": "Réparateur d'équipements sportifs avec expérience.",
     "descriptions": "Jérôme Dubois est un réparateur d'équipements sportifs avec une expertise dans la réparation et l'entretien de divers équipements, tels que les vélos, les raquettes de tennis, et les équipements de fitness. Il fournit un service de qualité pour que vos équipements restent en parfait état de fonctionnement.",
     "website": "jerome-dubois",
-    "image": "/niv2-projet-BILAN/img/artisan12.webp"
+    "image": "/niv2-projet-BILAN/img/artisan12.jpg"
   },
   {
     "id": 13,
@@ -269,7 +269,7 @@
     "description": "Expert en construction métallique pour projets industriels.",
     "descriptions": "Jean-Pierre Fouquet est un expert en construction métallique, réalisant des projets industriels de grande envergure. Il travaille sur des structures en métal, telles que des charpentes, des ponts, et des supports industriels. Jean-Pierre assure des constructions robustes et conformes aux normes de sécurité.",
     "website": "jean-pierre-fouquet",
-    "image": "/niv2-projet-BILAN/img/artisan17.webp"
+    "image": "/niv2-projet-BILAN/img/artisan17.jpg"
   },
   {
     "id": 18,
@@ -317,7 +317,7 @@
     "description": "Épicier proposant des produits locaux et bio.",
     "descriptions": "Julien Richard est un épicier proposant une sélection de produits locaux et biologiques. Il offre des produits alimentaires de qualité, allant des fruits et légumes aux produits d'épicerie fine. Julien veille à la provenance et à la qualité des produits pour offrir le meilleur à ses clients.",
     "website": "julien-richard",
-    "image": "/niv2-projet-BILAN/img/artisan20.webp"
+    "image": "/niv2-projet-BILAN/img/artisan20.jpg"
   },
   {
     "id": 21,
@@ -365,7 +365,7 @@
     "description": "Boulanger réputé pour ses pains et pâtisseries artisanales.",
     "descriptions": "Éric Durand est un boulanger réputé pour ses pains artisanaux et ses pâtisseries. Il propose une gamme variée de produits de boulangerie, incluant des pains faits maison, des viennoiseries, et des pâtisseries fines. Éric utilise des techniques traditionnelles pour garantir la qualité et le goût de ses produits.",
     "website": "eric-durant",
-    "image": "/niv2-projet-BILAN/img/artisan23.webp"
+    "image": "/niv2-projet-BILAN/img/artisan23.jpg"
   },
   {
     "id": 24,
@@ -381,7 +381,7 @@
     "description": "Chocolatier offrant des créations artisanales.",
     "descriptions": "Paul Lefèvre est un chocolatier offrant des créations artisanales uniques. Il propose une sélection de chocolats fins, de truffes, et de bonbons faits main. Paul utilise des ingrédients de qualité pour créer des produits délicieux et élégants.",
     "website": "paul-lefevre",
-    "image": "/niv2-projet-BILAN/img/artisan24.webp"
+    "image": "/niv2-projet-BILAN/img/artisan24.jpg"
   }, 
 
   {
@@ -398,7 +398,7 @@
     "description": "Électricien certifié pour tous vos besoins électriques.",
     "descriptions": "Marc Lefevre est un électricien certifié spécialisé dans tous les aspects de l'électricité domestique et industrielle. Il propose des services d'installation, de réparation, et de mise à jour des systèmes électriques. Avec une attention particulière à la sécurité et à la conformité, Marc garantit une installation fiable et conforme aux normes en vigueur.",
     "website": "marc-lefevre",
-    "image": "/niv2-projet-BILAN/img/artisan2.webp"
+    "image": "/niv2-projet-BILAN/img/artisan2.jpg"
   }, 
 
   {
